@@ -13,26 +13,24 @@ function Navbars() {
   
   return (
     <>
-      <Navbar
-        expand="lg"
-        className=" bg-dark  w-100   fixed-top z-index-4 position-fixed "
-      >
-        <Container
-          fluid
-          className=" d-flex justify-content-between col h-100  "
-        >
-          <Navbar.Brand className="col-2 fw-bolder mx-5 px-4 " href="#">
-            <span className="display-6 text-warning fw-bolder ">Port</span>
-            <span className="display-6 text-danger fw-bolder ">folio</span>
+        <Container fluid className="  bg-dark  " >
+      <Navbar expand="md"
+        className=" bg-dark  w-full  z-index-4 fixed-top pt-0 " >
+       
+         
+          <Navbar.Brand className="col-3 fw-bolder  mx-lg-4 px-lg-4 " href="#">
+            <span className="display-6 text-warning fw-bolder  ">Port</span>
+            <span className="display-6  text-danger fw-bolder  ">folio</span>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
+          <Navbar.Toggle aria-controls="navbarScroll" className="  bg-white " />
+          <Navbar.Collapse id="navbarScroll" className="">
             <Nav
-              className="me-auto  px-5 col-6 mx-5 my-lg-2  w-75 gap-3   "
-              style={{ maxHeight: "100px" }}
+              className="    col-6 
+               mx-lg-5 my-lg-2     w-75  "
+              style={{ maxHeight: "150px"}}
               navbarScroll
             >
-              <Nav.Link className="text-light ">
+              <Nav.Link className="text-light    ">
               
                 <Link
                   to="Home"
@@ -107,15 +105,15 @@ function Navbars() {
                 </Link>
               </Nav.Link>
             </Nav>
-            <div className="text-end  mx-md-5 px-md-5">
-              <Button variant="outline-light"
+            <div className=" text-end  ">
+              <Button variant="outline-light" 
                    href={DataApi.github} target="_blank">
-                <FaSquareGithub size="30px" />
+                <FaSquareGithub size="25px" />
               </Button>
             </div>
           </Navbar.Collapse>
-        </Container>
       </Navbar>
+        </Container>
     </> 
   );
 }
