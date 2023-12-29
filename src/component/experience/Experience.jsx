@@ -15,7 +15,7 @@ function Experience() {
       
           <div
             className="   shadow  border rounded  mt-3 "
-            style={{ width: "20rem" }}
+            style={{ minwidth: "360px", maxWidth:"400px" }}
           >
             <Card.Body className="text-light bg-dark p-4 ">
               <Card.Title className="text-info mt-3 mb-3">Teacher</Card.Title>
@@ -32,7 +32,7 @@ function Experience() {
         <Col className="d-grid justify-content-center mt-5">
           <div
             className="m-2 mb-5  bg-secondary shadow  border rounded"
-            style={{ width: "20rem" }}
+            style={{  minwidth: "360px", maxWidth:"400px" }}
           >
             <Card.Body className="text-light bg-dark pb-4 ">
               <Card.Title className="text-info mt-3 mb-3">Font-End Developer</Card.Title>

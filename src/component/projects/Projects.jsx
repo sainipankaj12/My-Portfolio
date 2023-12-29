@@ -20,7 +20,7 @@ function Projects() {
       
       <Col className='d-md-flex d-grid gap-3 w-100  '> 
       <div>
-        <Card className='bg-dark border-light text-light' style={{ width: '20rem', }}>
+        <Card className='bg-dark border-light text-light' style={{  minwidth: "360px", maxWidth:"400px" }}>
       <Card.Img variant="top" style={{ height: '16rem' }} src={img} />
       <Card.Body>
         <Card.Title>Weather-App</Card.Title>
@@ -32,7 +32,7 @@ function Projects() {
     </Card>
         </div>
         <div>
-        <Card className='bg-dark border-light text-light' style={{ width: '20rem',   }}>
+        <Card className='bg-dark border-light text-light' style={{  minwidth: "360px", maxWidth:"400px"  }}>
       <Card.Img variant="top"  style={{ height: '16rem' }} src={img2} />
       <Card.Body>
         <Card.Title >Shopping-App</Card.Title>
@@ -47,7 +47,7 @@ function Projects() {
 
         <Col className='d-md-flex d-grid gap-3 mt-3 w-100'> 
       <div>
-        <Card className='bg-dark border-light text-light' style={{ width: '20rem' }}>
+        <Card className='bg-dark border-light text-light' style={{  minwidth: "360px", maxWidth:"400px" }}>
       <Card.Img variant="top"  style={{ height: '16rem' }} src={img3} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
@@ -60,7 +60,7 @@ function Projects() {
     </Card>
         </div>
         <div>
-        <Card className='bg-dark border-light text-light ' style={{ width: '20rem' }}>
+        <Card className='bg-dark border-light text-light ' style={{ minwidth: "360px", maxWidth:"400px" }}>
       <Card.Img variant="top"  style={{ height: '16rem' }} src={img4} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>

@@ -29,9 +29,9 @@ function Home() {
     };
   }, []);
   return (
-    <Container fluid className="flex h-screen w-full bg-dark  " id="Home">
-      <Row className="d-grid w-100 h-100 d-lg-flex py-5 ">
-        <Col className="d-grid  mx-3 mx-md-5  text-white mt-5 pt-2">
+    <Container fluid className="flex h-screen  bg-dark  " id="Home">
+      <Row className="d-grid w-100  h-100 d-lg-flex py-5 n ">
+        <Col className="d-grid  mx-3 mx-lg-5  text-white mt-5 pt-2">
           <h4 className="mt-5">Hi, I am</h4>
           <h1 className="text-info mt-5">Pankaj Saini</h1>
           <h3 className="mt-5">

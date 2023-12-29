@@ -13,20 +13,20 @@ function Navbars() {
   
   return (
     <>
-        <Container fluid className="  bg-dark  " >
-      <Navbar expand="md"
-        className=" bg-dark  w-full  z-index-4 fixed-top pt-0 " >
+      <Navbar expand="lg " fixed='top' 
+        className=" bg-dark   w-full  z-index-4  pt-0 screen-cover " >
+        <Container fluid className="  " >
        
          
-          <Navbar.Brand className="col-3 fw-bolder  mx-lg-4 px-lg-4 " href="#">
+          <Navbar.Brand className="col-3 fw-bolder  mx-lg-4 px-lg-4  " href="#">
             <span className="display-6 text-warning fw-bolder  ">Port</span>
             <span className="display-6  text-danger fw-bolder  ">folio</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" className="  bg-white " />
-          <Navbar.Collapse id="navbarScroll" className="">
+          <Navbar.Collapse id="navbarScroll" className="  " style={{minWidth:"20px"}}>
             <Nav
               className="    col-6 
-               mx-lg-5 my-lg-2     w-75  "
+               mx-lg-5 my-lg-2    w-md-50 w-75  "
               style={{ maxHeight: "150px"}}
               navbarScroll
             >
@@ -112,8 +112,8 @@ function Navbars() {
               </Button>
             </div>
           </Navbar.Collapse>
-      </Navbar>
         </Container>
+      </Navbar>
     </> 
   );
 }

@@ -15,8 +15,8 @@ function Education() {
       </div>
     
         <div
-          className="  bg-secondary shadow  border rounded  "
-          style={{ width: "20rem" }}
+          className=" mx-2 bg-secondary shadow  border rounded  "
+          style={{ minwidth: "360px", maxWidth:"400px" }}
         >
           <Card.Body className="text-light bg-dark ">
             <Card.Title className="text-info">PGDCA</Card.Title>
@@ -39,8 +39,8 @@ function Education() {
 
       <Col className="d-grid justify-content-center ">
         <div
-          className=" mt-3 bg-secondary shadow  border rounded"
-          style={{ width: "20rem" }}
+          className=" mt-3 mx-2  shadow  border rounded"
+          style={{ minwidth: "360px", maxWidth:"400px" }}
         >
           <Card.Body className="text-light bg-dark">
             <Card.Title className="text-info">GRADUATION</Card.Title>
@@ -62,8 +62,8 @@ function Education() {
 
       <Col className="d-grid justify-content-center ">
         <div
-          className="m-3  bg-secondary shadow border rounded"
-          style={{ width: "20rem" }}
+          className="px-5  mt-3 shadow border rounded"
+          style={{ minwidth: "360px", maxWidth:"400px" }}
         >
           <Card.Body className="text-light bg-dark">
             <Card.Title className="text-info">INTERMEDIATE</Card.Title>
@@ -87,13 +87,13 @@ function Education() {
 
       <Col className="d-grid justify-content-center ">
         <div
-          className="m-3  bg-secondary shadow border rounded"
-          style={{ width: "20rem" }}
+          className="px-5 mt-3  shadow border rounded"
+          style={{  minwidth: "360px", maxWidth:"400px"}}
         >
           <Card.Body className="text-light bg-dark">
             <Card.Title className="text-info">TENTH</Card.Title>
             <Card.Subtitle className="mb-2 text-warning">
-              BORD - <span className="text-light">U.P  BOARD</span>
+              BORD-<span className="text-light">U.P  BOARD</span>
             </Card.Subtitle>
             <Card.Subtitle className="mb-2 text-warning">
               CLASS - <span className="text-light">10TH</span>
